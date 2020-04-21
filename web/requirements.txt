@@ -1,0 +1,10 @@
+Flask
+flask_restful
+pymongo
+theano
+keras
+numpy
+joblib
+lxml
+beautifulsoup4
+joblib
