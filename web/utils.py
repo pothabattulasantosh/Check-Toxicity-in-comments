@@ -72,11 +72,11 @@ def evaluteToxicity(comment):#To do
     identity_label=IDENTIY_LABELS[np.argsort(-predictions[2])][0][:3]
 
     if target<0.5:
-        msg = f"""Your comment is SAFE to post in social media,
-        your comment may summarizes and intended towards these following identities {identity_label}
-        however it does not criticize any group of people"""
+        msg = f"""Your comment is SAFE to post in social groups.
+        This comment does not criticize any group of people"""
     else:
-        msg = f"""Your comment is very TOXIC and it is very intensional to hurt towards {identity_label},
-        your comment definatly summarizes {aux_label}"""
+        msg = f"""Your comment is very TOXIC and it is very intensional to hurt towards {identity_label[0]} or
+        {identity_label[1]} or {identity_label[2]}
+        your comment summerizes {aux_label[0]}, {aux_label[1]} and {aux_label[2]}"""
 
     return msg
