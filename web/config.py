@@ -20,7 +20,13 @@ STOP_WORDS= set(['br', 'the', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'o
             'won', "won't", 'wouldn', "wouldn't"]) #If want add more STOP_WORDS here
 
 
-AUX_LABELS = ['Severe Toxicity','Obscene','Threat','Insult','Identity Attack','Sexual Explicit']
+AUX_LABELS = ['Severe Abusing','Obscene','Threating','Insulting','Identity Attacking','Sexual Expliciting']
 
-IDENTIY_LABELS = ['Male','Female','Homosexual/Gay/Lesbian','Christian','Jewish','Muslim','Black','White',
-                    'Psychiatric/Mentalillness']
+IDENTIY_LABELS = ['Male gender group','Female gender group','Homosexual/Gay/Lesbian group','Christian religion group',
+                    'Jewish religion group','Muslim religion group','Black colored people','White colored people',
+                    'Psychiatric/Mentalillness people']
+
+
+pos_msg = """Your comment is SAFE to post in social groups. This comment does not criticize any group of people"""
+
+neg_msg = ["Your comment is TOXIC and it might hurt","Your comment has clear intention of"]
