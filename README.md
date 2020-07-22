@@ -20,9 +20,9 @@ All dependencies in the project was virtualized using Docker and containers
 ```bash
  $ git clone https://github.com/pothabattulasantosh/Check-Toxicity-in-comments-WEB-APP.git
  ```
-##### 2. Go to Demo_App directory
+##### 2. Go to Check-Toxicity-in-comments-WEB-APP directory
 ```bash
- $ cd Demo_App
+ $ cd Check-Toxicity-in-comments-WEB-APP
  ``` 
 ##### 3. Now create a docker Build for this application.
 
