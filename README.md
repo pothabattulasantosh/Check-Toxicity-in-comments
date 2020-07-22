@@ -7,7 +7,7 @@ In this web application we used AI model that was trained with JIGSAW data. To p
 All dependencies in the project was virtualized using Docker and containers
 
 
-![alt tag](https://github.com/pothabattulasantosh/Demo_App/blob/master/Screenshot%20from%202020-07-22%2015:21:44.png?raw=true)
+![alt tag](https://github.com/pothabattulasantosh/Demo_App/blob/master/Screenshot_application-view.png)
 
 ### Before running this App:
 
